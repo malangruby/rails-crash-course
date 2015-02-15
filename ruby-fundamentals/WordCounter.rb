@@ -22,8 +22,3 @@ class WordCounter
       end
    end
 end
-
-counter = WordCounter.new("test.txt")
-counter.count
-counter.uniq_count
-counter.frequency
